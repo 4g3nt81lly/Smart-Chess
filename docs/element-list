@@ -1,0 +1,5 @@
+chess.model
+chess.model.exceptions
+chess.model.moves
+chess.model.pieces
+chess.model.player

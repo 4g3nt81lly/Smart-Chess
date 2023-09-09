@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="smartchess-docs-0.0.1a">
+    <output-path>$PROJECT_DIR$/out/artifacts/smartchess_docs_0_0_1a</output-path>
+    <root id="archive" name="smartchess-docs-0.0.1a.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/api/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/docs" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,46 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="smartchess-api-0.0.1a">
+    <output-path>$PROJECT_DIR$/out/artifacts/smartchess_api_0_0_1a</output-path>
+    <root id="archive" name="smartchess-api-0.0.1a.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/api/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/annotations-24.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javassist.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-20230618.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/reflections-0.10.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/slf4j-api-2.0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/slf4j-nop-2.0.7.jar" path-in-jar="/" />
+      <element id="directory" name="chess">
+        <element id="directory" name="model">
+          <element id="directory" name="moves">
+            <element id="dir-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/moves" />
+          </element>
+          <element id="directory" name="pieces">
+            <element id="dir-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/pieces" />
+          </element>
+          <element id="directory" name="player">
+            <element id="dir-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/player" />
+          </element>
+          <element id="directory" name="exceptions">
+            <element id="dir-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/exceptions" />
+          </element>
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/Chessboard.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/Chessboard$StateGenerator.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/Color.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/Colored.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/Colored$1.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/Colored$2.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/Position.class" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/model/TextSymbols.class" />
+        </element>
+        <element id="directory" name="util">
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/util" />
+        </element>
+        <element id="directory" name="persistence">
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/Smart-Chess/chess/persistence/Codable.class" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
